@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="ShowcaseContent">
             <div className="ShowcaseVid">
-              <img src='https://cdn.discordapp.com/attachments/524862684928409629/902807728290955315/Status_system_script.gif' width='400' height='225'></img>
+              <img src='https://cdn.discordapp.com/attachments/524862684928409629/902807728290955315/Status_system_script.gif' alt='something' width='400' height='225'></img>
             </div>
             <div className="ShowcaseText">
               <h1 className="ShowcaseTitle">Item Placement System</h1>
