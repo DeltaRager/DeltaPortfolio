@@ -5,10 +5,52 @@
 body {
   background-color: #181822;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .Title {
   text-align: center;
+}
+
+.column {
+  float:left;
+  width: 25%;
+  margin-top: 1.5%;
+}
+
+.row {
+  margin: 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.4);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  background-color: #1A1A1A;
+  font-family: "Work Sans", sans-serif;
+  color: #EDF1F2;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .Title h1{
@@ -31,6 +73,23 @@ body {
   margin: 0;
   font-weight: bold;
 }
+.About ul{
+  font-size: 130%;
+  font-weight: 300;
+  color: #EDF1F2;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  margin: 0;
+  margin-bottom: 2%;
+  margin-top: 0.3%;
+  margin-left: 0%;
+  list-style-type:none;
+}
+
+.About li{
+  padding-top: 0.2%;
+}
+
 .About p{
   font-size: 130%;
   font-weight: 300;
@@ -39,6 +98,7 @@ body {
   padding-right: 12.5%;
   margin: 0;
   margin-bottom: 2%;
+  margin-top: 0.5%;
 }
 
 .Container {
@@ -54,11 +114,11 @@ body {
   padding-bottom: 0.55%;
 }
 
-.unselectedButton:hover {
+button:hover:not(.selectedButton) {
   background-color: rgba(31, 31, 34, 0.322);
 }
 
-.unselectedButton {
+button {
   background-color: #2B2B30;
   border-radius: 10px;
   font-family: "Work Sans", sans-serif;
@@ -94,6 +154,7 @@ body {
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   cursor: pointer;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .HeaderButton {
@@ -118,17 +179,22 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position:static;
   bottom: 0;
   width: 100%;
-  min-height: 70px;
-  background-color: #1A182D;
-  text-align: left;
+  height: 100%;
+  background-color: #1A1A1A;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .footer_element {
-  padding-left: 1em;
+  padding-top: 0.5%;
+  padding-left: 0.5%;
   color: #EDF1F2;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
 }
 .Titles {
   display: flex;
@@ -177,4 +243,72 @@ body {
   margin: 0;
   width: 42.5%;
   margin-top: 0.5%;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #1A1A1A;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #1A1A1A;
+  width: 40%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #EDF1F2;
+}
+
+.modal-content p{
+  font-size: large;
+  margin: 0;
+}
+
+.ShowcaseTitle {
+  text-align: left;
+  margin: 0;
+  padding-bottom: 1%;
+}
+.ShowcaseVid img {
+  border-radius: 5px;
+}
+.ShowcaseVid {
+  margin: 0;
+  padding-top: 1%;
+}
+.ShowcaseText {
+  margin: 0;
+  width: 50%;
+  margin-left: 2%;
+}
+.ShowcaseContent {
+  display: flex;
+  margin: 0;
+}
+
+/* The Close Button */
+.close {
+  color: #EDF1F2;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #EDF1F2;
+  text-decoration: none;
+  cursor: pointer;
 }
