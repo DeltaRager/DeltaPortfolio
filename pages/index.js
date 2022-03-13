@@ -2,11 +2,36 @@
 import Image from "next/image";
 
 export default function Home() {
+  function setup() {
+    const get = document.getElementById.bind(document);
+    const query = document.querySelector.bind(document);
+
+    let modalRoot = get('myModal');
+    let modal = query('.modal-content');
+
+    modalRoot.addEventListener('click', rootClick);
+    modal.addEventListener('click', modalClick);
+
+    function rootClick() {
+      document.getElementById("myModal").style.display = 'none'
+    }
+
+    function modalClick(e) {
+      if (e.target.className !== "close") {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        return false;
+      }
+    }
+
+  }
+
   function buttonevent() {
+
     for (let i = 0; i < document.getElementsByClassName('card').length; i++) {
       document.getElementsByClassName('card')[i]
         .addEventListener('click', function (event) {
-          var targetElement = event.target
           document.getElementById("myModal").style.display = 'block'
         });
     }
@@ -16,6 +41,7 @@ export default function Home() {
     if (activebutton == null) {
       activebutton = document.getElementById("exp")
       buttonevent()
+      setup()
     }
     if (!document.getElementById(id).classList.contains("selectedButton")) {
       activebutton.classList.remove("selectedButton")
@@ -28,9 +54,12 @@ export default function Home() {
 
   return (
     <header>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div id="myModal" className="modal">
         <div className="modal-content">
-          <span className="close" onClick={() => { document.getElementById("myModal").style.display = 'none' }}>&times;</span>
+          <span className="close" onClick={() => {
+            document.getElementById("myModal").style.display = 'none'
+          }}>&times;</span>
 
           <div className="ShowcaseContent">
             <div className="ShowcaseVid">
@@ -116,15 +145,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='Experience' id='linkTab' style={{ display: "none" }}>
-          <div className='Titles'>
-            <h2>Raincoat Games 3</h2>
-            <h2 className='titlePos'>Programmer</h2>
-          </div>
-          <div className='Content'>
-            <h3>Dec 2021 - Present</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div className='Links' id='linkTab' style={{ display: "none" }}>
+
         </div>
       </div>
     </header>
