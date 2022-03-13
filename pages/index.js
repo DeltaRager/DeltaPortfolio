@@ -77,7 +77,9 @@ export default function Home() {
       </div>
       <div className='About'>
         <h2>About me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Been on Roblox since 2014 but started developing on it since June 2020.
+          <br></br>
+          I have some Non-Roblox programming experience such as developing discord bots in Nodejs and Python, creating a basic web app using Flutter etc.</p>
       </div>
       <div className='About'>
         <h2>Technology proficiency</h2>

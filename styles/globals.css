@@ -74,7 +74,7 @@ body {
   font-weight: bold;
 }
 .About ul{
-  font-size: 130%;
+  font-size: 1.3vw;
   font-weight: 300;
   color: #EDF1F2;
   padding-left: 12.5%;
@@ -91,7 +91,7 @@ body {
 }
 
 .About p{
-  font-size: 130%;
+  font-size: 1.3vw;
   font-weight: 300;
   color: #EDF1F2;
   padding-left: 12.5%;
@@ -315,4 +315,10 @@ button {
   color: #EDF1F2;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .About p,.About ul {
+    font-size: 4vw; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
