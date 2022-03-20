@@ -6,7 +6,7 @@ body {
   background-color: #181822;
   margin: 0;
   box-sizing: border-box;
-  background-image: url(../public/bg1.svg);
+  background-image: url('https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/public/bg1.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
