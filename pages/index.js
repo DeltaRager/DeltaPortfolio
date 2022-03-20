@@ -57,16 +57,17 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div id="myModal" className="modal">
         <div className="modal-content">
-          <span className="close" onClick={() => {
-            document.getElementById("myModal").style.display = 'none'
-          }}>&times;</span>
-
+          <div className="ModalHeader" >
+            <span className="close" onClick={() => {
+              document.getElementById("myModal").style.display = 'none'
+            }}>&times;</span>
+            <h1 className="ShowcaseTitle">Item Placement System</h1>
+          </div>
           <div className="ShowcaseContent">
             <div className="ShowcaseVid">
               <img src='https://cdn.discordapp.com/attachments/524862684928409629/902807728290955315/Status_system_script.gif' alt='something' width='400' height='225'></img>
             </div>
             <div className="ShowcaseText">
-              <h1 className="ShowcaseTitle">Item Placement System</h1>
               <p>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
