@@ -112,6 +112,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
+
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
           <div className='row'>
             <div className='column'>
@@ -148,9 +149,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className='Links' id='linkTab' style={{ display: "none" }}>
 
         </div>
+
+      </div>
+      <div className='About'>
+        <h2>Links</h2>
+        <a>Test</a>
       </div>
     </header>
   )
