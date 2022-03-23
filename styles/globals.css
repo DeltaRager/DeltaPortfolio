@@ -368,6 +368,12 @@ button {
   font-weight: 500;
 }
 
+.grid-item div {
+  background-color: white;
+  -webkit-mask: url(https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg) no-repeat center;
+  mask: url(https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg) no-repeat center;
+}
+
 @media screen and (max-width: 900px) {
   .About p,.About ul {
     font-size: 4vw; /* The width is 100%, when the viewport is 800px or smaller */

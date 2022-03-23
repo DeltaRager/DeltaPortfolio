@@ -167,7 +167,7 @@ export default function Home() {
         <h2>Links</h2>
         <div className="grid-container">
           <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Roblox Profile</a></Link></div>
-          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Youtube</a></Link></div>
+          <div className="grid-item"><img src="https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg" alt="test"></img><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Youtube</a></Link></div>
           <div className="grid-item">
             <Link href="https://github.com/">
               
