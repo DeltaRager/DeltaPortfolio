@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-
+import Link from 'next/link';
 export default function Home() {
   function setup() {
     const get = document.getElementById.bind(document);
@@ -111,6 +111,14 @@ export default function Home() {
             <h3>Dec 2021 - Present</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+          <div className='Titles'>
+            <h2>independent Developer</h2>
+            <h2 className='titlePos'>Programmer</h2>
+          </div>
+          <div className='Content'>
+            <h3>Jun 2020 - Dec 2021</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
 
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
@@ -157,7 +165,17 @@ export default function Home() {
       </div>
       <div className='About'>
         <h2>Links</h2>
-        <a>Test</a>
+        <div className="grid-container">
+          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Roblox Profile</a></Link></div>
+          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Youtube</a></Link></div>
+          <div className="grid-item">
+            <Link href="https://github.com/">
+              
+              <a target="_blank" rel="noopener noreferrer">Twitter</a>
+            </Link>
+          </div>
+          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Github</a></Link></div>
+        </div>
       </div>
     </header>
   )
