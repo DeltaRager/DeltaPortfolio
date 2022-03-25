@@ -55,6 +55,7 @@ export default function Home() {
   return (
     <header>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
       <div id="myModal" className="modal">
         <div className="modal-content">
           <div className="ModalHeader" >
@@ -78,9 +79,11 @@ export default function Home() {
       </div>
       <div className='About'>
         <h2>About me</h2>
-        <p>Been on Roblox since 2014 but started developing on it since June 2020.
+        <p>Hello! Welcome to my Roblox Dev Portfolio. I have been on this platform since 2014.
           <br></br>
-          I have some Non-Roblox programming experience such as developing discord bots in Nodejs and Python, creating a basic web app using Flutter etc.</p>
+          <br></br>
+          My development journey started with me taking up commissions for basic systems which slowly evolved into making fully functioning games that use dedicated frameworks.
+          </p>
       </div>
       <div className='About'>
         <h2>Technology proficiency</h2>
@@ -90,7 +93,7 @@ export default function Home() {
           <li>Module scripts and Module loading</li>
           <li>CFrame Manipulation</li>
           <li>Datastores</li>
-          <li>Region3</li>
+          <li>Spatial Query</li>
           <li>Raycasting</li>
           <li>Streaming Enabled/Optimization</li>
           <li>Messaging Service and much more!</li>
@@ -112,7 +115,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className='Titles'>
-            <h2>independent Developer</h2>
+            <h2>Independent Developer</h2>  
             <h2 className='titlePos'>Programmer</h2>
           </div>
           <div className='Content'>
@@ -120,7 +123,6 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
           <div className='row'>
             <div className='column'>
@@ -130,8 +132,6 @@ export default function Home() {
                 <p>Some text</p>
               </div>
             </div>
-
-
             <div className='column'>
               <div className='card'>
                 <h3>Card 2</h3>
@@ -139,7 +139,6 @@ export default function Home() {
                 <p>Some text</p>
               </div>
             </div>
-
             <div className='column'>
               <div className='card'>
                 <h3>Card 3</h3>
@@ -147,7 +146,6 @@ export default function Home() {
                 <p>Some text</p>
               </div>
             </div>
-
             <div className='column'>
               <div className='card'>
                 <h3>Card 4</h3>
@@ -157,24 +155,22 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className='Links' id='linkTab' style={{ display: "none" }}>
 
         </div>
-
       </div>
       <div className='About'>
         <h2>Links</h2>
         <div className="grid-container">
-          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Roblox Profile</a></Link></div>
-          <div className="grid-item"><img src="https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg" alt="test"></img><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Youtube</a></Link></div>
+          <div className="grid-item"><i className="bi bi-tools iconclass"></i><Link href="https://www.roblox.com/users/72198044/profile"><a target="_blank" rel="noopener noreferrer">Roblox Profile</a></Link></div>
+          <div className="grid-item"><i className="bi bi-youtube iconclass"></i><Link href="https://www.youtube.com/channel/UC-Tlhly0cMmPCyIQJnPRoYQ/videos"><a target="_blank" rel="noopener noreferrer">Youtube</a></Link></div>
           <div className="grid-item">
-            <Link href="https://github.com/">
-              
+            <i className="bi bi-twitter iconclass"></i>
+            <Link href="https://twitter.com/DeltaRager">
               <a target="_blank" rel="noopener noreferrer">Twitter</a>
             </Link>
           </div>
-          <div className="grid-item"><Link href="https://github.com/"><a target="_blank" rel="noopener noreferrer">Github</a></Link></div>
+          <div className="grid-item"><i className="bi bi-github iconclass"></i><Link href="https://github.com/DeltaRager"><a target="_blank" rel="noopener noreferrer">Github</a></Link></div>
         </div>
       </div>
     </header>

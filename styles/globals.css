@@ -351,13 +351,14 @@ button {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin-bottom: 3%;
 }
 
 .grid-item {
-  padding: 20px;
   text-align: left;
   padding: 0;
   margin: 0;
+  margin-top: 2%;
 }
 
 .grid-item a {
@@ -365,13 +366,24 @@ button {
   font-family: "Work Sans", sans-serif;
   color: #EDF1F2;
   font-size: 1.5vw;
-  font-weight: 500;
+  font-weight: 600;
+  padding-left: 3%;
 }
 
-.grid-item div {
-  background-color: white;
-  -webkit-mask: url(https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg) no-repeat center;
-  mask: url(https://raw.githubusercontent.com/DeltaRager/DeltaPortfolio/main/Assets/github-brands.svg) no-repeat center;
+.iconclass {
+  color: #EDF1F2;
+}
+
+mark {
+  background: none;
+}
+
+.Python {
+  
+}
+
+.Nodejs {
+  
 }
 
 @media screen and (max-width: 900px) {
@@ -381,7 +393,12 @@ button {
     margin-top: 2%;
   }
   .About h2 {
+    font-size: 6vw;
+  }
 
+  .About {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .Experience h2 {
@@ -435,8 +452,13 @@ button {
     overflow: hidden;
   }
 
-  .ShowcaseTitle {
-    
+
+  .grid-item a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    color: #EDF1F2;
+    font-size: 2.7vw;
+    font-weight: 600;
+    padding-left: 3%;
   }
-  
 }
