@@ -83,27 +83,13 @@ export default function Home() {
           <br></br>
           <br></br>
           My development journey started with me taking up commissions for basic systems which slowly evolved into making fully functioning games that use dedicated frameworks.
-          </p>
-      </div>
-      <div className='About'>
-        <h2>Technology proficiency</h2>
-        <ul>
-          <li>Knit</li>
-          <li>OOP based systems</li>
-          <li>Module scripts and Module loading</li>
-          <li>CFrame Manipulation</li>
-          <li>Datastores</li>
-          <li>Spatial Query</li>
-          <li>Raycasting</li>
-          <li>Streaming Enabled/Optimization</li>
-          <li>Messaging Service and much more!</li>
-        </ul>
+        </p>
       </div>
       <div className='Container'>
         <div className='HeaderButton'>
           <button className='selectedButton' id="exp" onClick={() => changeButton("exp")}>Experience</button>
           <button className='unselectedButton' id="show" onClick={() => changeButton("show")}>Showcase</button>
-          <button className='unselectedButton' id="link" onClick={() => changeButton("link")}>Links</button>
+          <button className='unselectedButton' id="link" onClick={() => changeButton("link")}>Skills</button>
         </div>
         <div className='Experience' id='expTab'>
           <div className='Titles'>
@@ -114,8 +100,9 @@ export default function Home() {
             <h3>Dec 2021 - Present</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+          <hr></hr>
           <div className='Titles'>
-            <h2>Independent Developer</h2>  
+            <h2>Independent Developer</h2>
             <h2 className='titlePos'>Programmer</h2>
           </div>
           <div className='Content'>
@@ -156,7 +143,30 @@ export default function Home() {
           </div>
         </div>
         <div className='Links' id='linkTab' style={{ display: "none" }}>
-
+          <div className='TitleLink'>
+            <h2>Roblox API</h2>
+          </div>
+          <div className='LinkContent'>
+            <p>Knit</p>
+            <p>OOP based systems</p>
+            <p>CFrame Manipulation</p>
+            <p>Datastores</p>
+            <p>Spatial Query</p>
+            <p>Raycasting</p>
+            <p>Streaming Enabled/Optimization</p>
+            <p>Messaging Service</p>
+          </div>
+          <hr></hr>
+          <div className='TitleLink'>
+            <h2>Languages</h2>
+          </div>
+          <div className='LinkContent'>
+            <p>Luau</p>
+            <p>Nodejs</p>
+            <p>Python</p>
+            <p>C</p>
+            <p>HTML & CSS</p>
+          </div>
         </div>
       </div>
       <div className='About'>
