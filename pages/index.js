@@ -147,6 +147,9 @@ export default function Home() {
                   <br></br>
                   <br></br>
                   The red and blue radial bars indicate distance available for the respective arms and will retract back if the limit has been exceeded.
+                  <br></br>
+                  <br></br>
+                  Full Youtube Showcase: <a href="https://www.youtube.com/watch?v=55bFDR1SE_U&ab_channel=DeltaRager" target="_blank" rel="noopener noreferrer">Video</a>
                 </p>
               </div>
               <img src='https://cdn.discordapp.com/attachments/524862684928409629/957727349590335538/huggy.gif' alt='something'></img>
