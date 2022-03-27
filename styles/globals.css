@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 body {
   background-color: #181822;
   margin: 0;
@@ -223,10 +224,6 @@ button {
   margin-top: 1.5%;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.Links {
-  margin-left: 2%;
-  margin-right: 2%;
-}
 .Content p {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
@@ -249,6 +246,11 @@ button {
   
 }
 
+.Links {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .Links h2{
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
@@ -263,20 +265,25 @@ button {
 
 .LinkContent {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 33% 33% auto;
   margin-bottom: 1.5%;
+  background-color: #46464e;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+
+.TitleLink h2{
+  color: #D3BC91;
 }
 
 .LinkContent p {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
-  color: #EDF1F2;
-  width: auto;
-  padding-left: 1%;
-  padding-right: 1%;
+  color: #EDF1F2  ;
   margin: 0;
   font-size: 1.3vw;
-  margin-top: 2.5%;
+  padding: 2%;
 }
 
 .Showcase h2 {
@@ -406,12 +413,17 @@ button {
 
 .Content img {
   display: block;
-  max-width:90%;
+  max-width:60%;
   max-height:90%;
   width: auto;
   height: auto;
   border-radius: 5px;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Experience img {
+  max-width:90%;
+  max-height:90%;
 }
 
 
@@ -497,6 +509,7 @@ mark {
 .Nodejs {
   
 }
+
 
 
 @media screen and (max-width: 900px) {
@@ -624,6 +637,7 @@ mark {
   .LinkContent {
     display: grid;
     grid-template-columns: auto;
+    background-color: ;
   }
 
   .LinkContent p {

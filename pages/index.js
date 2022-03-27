@@ -100,18 +100,21 @@ export default function Home() {
           <div className='Content'>
             <div className="ContentText">
               <h3>Dec 2021 - Present</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Currently developing for the SCPF group under Raincoat Games. Working on a Survive the killers project.</p>
             </div>
             <img src='https://cdn.discordapp.com/attachments/809875205693636620/951377969346134016/unknown.png' alt='something'></img>
           </div>
           <div className='Titles'>
-            <h2>Drift Playground</h2>
+            <h2>Drift Simulator</h2>
             <h2 className='titlePos'>Programmer | Game Producer</h2>
           </div>
           <div className='Content'>
             <div className="ContentText">
               <h3>Jan 2021 - Apr 2021</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>A game with over 2.1M+ visits and a peak player count of 200. A fullscale game development project created by a team of 2. 
+                <br></br>
+                Worked as a producer and programmer while the project was active, creating new systems such as a drifting system for the players to interact with.
+              </p>
             </div>
             <img src='https://cdn.discordapp.com/attachments/950431041674436628/957634713500123156/collage.png' alt='something'></img>
           </div>
@@ -122,13 +125,31 @@ export default function Home() {
           <div className='Content'>
             <div className="ContentText">
               <h3>Mar 2021 - Apr 2021</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Project created by a team of 2. A game inspired by the Cookie clicker/Simulator Genre with a Samurai theme that use the swinging of the Katana to generate cash. 
+                <br></br>
+                Worked as a programmer while the project was active and was responsible for the creation of various systems that are used in the game.
+              </p>
             </div>
             <img src='https://samfloyd.tech/images/samuraisimulator.png' alt='something'></img>
           </div>
         </div>
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
           <div className='ShowcaseWork'>
+            <div className='Titles'>
+              <h2>Grabpack System</h2>
+              <h2 className='titlePos'></h2>
+            </div>
+            <div className='Content'>
+              <div className="ContentText">
+                <h3>2021</h3>
+                <p>Grabpack system from the game Poppiy Playtime.
+                  <br></br>
+                  <br></br>
+                  The red and blue radial bars indicate distance available for the respective arms and will retract back if the limit has been exceeded.
+                </p>
+              </div>
+              <img src='https://cdn.discordapp.com/attachments/524862684928409629/957727349590335538/huggy.gif' alt='something'></img>
+            </div>
             <div className='Titles'>
               <h2>Item Placement System</h2>
               <h2 className='titlePos'></h2>
@@ -173,10 +194,16 @@ export default function Home() {
         </div>
         <div className='Links' id='linkTab' style={{ display: "none" }}>
           <div className='TitleLink'>
-            <h2>Roblox API</h2>
+            <h2>Frameworks</h2>
           </div>
           <div className='LinkContent'>
             <p>Knit</p>
+
+          </div>
+          <div className='TitleLink'>
+            <h2>Roblox API</h2>
+          </div>
+          <div className='LinkContent'>
             <p>OOP based systems</p>
             <p>CFrame Manipulation</p>
             <p>Datastores</p>
@@ -185,7 +212,6 @@ export default function Home() {
             <p>Streaming Enabled/Optimization</p>
             <p>Messaging Service</p>
           </div>
-          <hr></hr>
           <div className='TitleLink'>
             <h2>Languages</h2>
           </div>
@@ -194,9 +220,8 @@ export default function Home() {
             <p>Nodejs</p>
             <p>Python</p>
             <p>C</p>
-            <p>HTML & CSS</p>
+            <p>HTML & CSS [This website!]</p>
           </div>
-          <hr></hr>
         </div>
       </div>
       <div className='About'>
