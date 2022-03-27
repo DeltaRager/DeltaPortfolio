@@ -204,8 +204,8 @@ button {
   font-weight: bolder;
 }
 .Titles {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 42.5% auto;
 }
 
 
@@ -216,20 +216,22 @@ button {
 }
 .Experience {
   margin-left: 2%;
+  margin-top: 1.5%;
 }
 .Links {
   margin-left: 2%;
+  margin-right: 2%;
 }
 .Content p {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   color: #EDF1F2;
-  width: 50%;
   margin: 0;
-  margin-top: 0.5%;
+  font-size: 1.1vw;
 }
 .Content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 42.5% auto;
   margin-bottom: 1.5%;
 }
 
@@ -238,7 +240,7 @@ button {
 }
 
 .Titles h2 {
-  text-align: center;
+  
 }
 
 .Links h2{
@@ -250,7 +252,6 @@ button {
   margin: 0;
   text-align: left;
   margin-top: 1.5%;
-  
 }
 
 
@@ -270,7 +271,17 @@ button {
   margin: 0;
   font-size: 1.3vw;
   margin-top: 2.5%;
-  
+}
+
+.Showcase h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  color: #EDF1F2;
+  font-size: 2vw;
+  margin: 0;
+  width: 90%;
+  text-align: left;
 }
 
 .Experience h2{
@@ -280,10 +291,13 @@ button {
   color: #EDF1F2;
   font-size: 2vw;
   margin: 0;
-  margin-top: 1.5%;
-  width: 42.5%;
+  width: 90%;
   text-align: left;
 }
+.Showcase h2 {
+  font-size: 2vw;
+}
+
 .Content h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 100;
@@ -291,6 +305,7 @@ button {
   margin: 0;
   width: 42.5%;
   margin-top: 0.5%;
+  font-size: 1.3vw;
 }
 
 .modal {
@@ -361,6 +376,56 @@ button {
   margin-right: 2.5%;
   margin-left: 2.5%;
 }
+
+.ShowcaseWork {
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+
+.ShowcaseText {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  color: #EDF1F2;
+}
+
+.ShowcaseText h2 {
+  font-size: 2vw;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.Content img {
+  display: block;
+  max-width:90%;
+  max-height:90%;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 0.5%;
+}
+
+
+.ShowcaseWork img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContentText {
+  width: 90%;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.ShowcaseText p {
+  margin: 0;
+}
+
 
 /* The Close Button */
 .close {
@@ -446,10 +511,17 @@ mark {
   .About {
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .Experience h2 {
     font-size: 5vw;
+  }
+
+  .Showcase h2 {
+    font-size: 5vw;
+    width: 100%;
   }
 
   .selectedButton {
@@ -490,6 +562,8 @@ mark {
 
   .Container {
     border-radius: 10px;
+    width: 100%;
+    margin: 0;
   }
 
   .modal-content {
@@ -507,5 +581,56 @@ mark {
     font-size: 2.7vw;
     font-weight: 600;
     padding-left: 3%;
+  }
+
+  .Content {
+    display: inline;
+  }
+
+  .Titles {
+    margin-top: 2.5%;
+  }
+
+  .Content img {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .Content h3 {
+    width: 50%;
+    font-size: 4.5vw;
+  }
+
+  .Content p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 3vw;
+  }
+
+  .ContentText {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .LinkContent {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .LinkContent p {
+    font-size: 3vw;
+  }
+
+  .Links h2{
+    font-size: 4.5vw;
+  }
+
+
+  .ShowcaseWork img {
+    max-width:90%;
+    max-height:50%;
   }
 }
