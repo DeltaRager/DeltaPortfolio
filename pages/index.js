@@ -113,7 +113,7 @@ export default function Home() {
               <h3>Jan 2021 - Apr 2021</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <img src='https://samfloyd.tech/images/DriftSimulator.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/957634713500123156/collage.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Samurai Kings</h2>
