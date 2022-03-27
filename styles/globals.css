@@ -218,6 +218,10 @@ button {
   margin-left: 2%;
   margin-top: 1.5%;
 }
+
+.Experience img {
+  margin-top: 1.5%;
+}
 .Links {
   margin-left: 2%;
   margin-right: 2%;
@@ -227,6 +231,7 @@ button {
   font-weight: 400;
   color: #EDF1F2;
   margin: 0;
+  padding-top: 1%;
   font-size: 1.1vw;
 }
 .Content {
@@ -405,7 +410,6 @@ button {
   width: auto;
   height: auto;
   border-radius: 5px;
-  margin-top: 0.5%;
 }
 
 
@@ -632,5 +636,10 @@ mark {
   .ShowcaseWork img {
     max-width:90%;
     max-height:50%;
+  }
+
+  .Experience img {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -129,17 +129,6 @@ export default function Home() {
         </div>
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
           <div className='ShowcaseWork'>
-          <div className='Titles'>
-              <h2>Water Part System</h2>
-              <h2 className='titlePos'></h2>
-            </div>
-            <div className='Content'>
-              <div className="ContentText">
-                <h3>2020</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <img src='https://cdn.discordapp.com/attachments/524862684928409629/957622011620913232/2022-03-27_18-07-09_AdobeCreativeCloudExpress_1.gif' alt='something'></img>
-            </div>
             <div className='Titles'>
               <h2>Item Placement System</h2>
               <h2 className='titlePos'></h2>
@@ -147,10 +136,23 @@ export default function Home() {
             <div className='Content'>
               <div className="ContentText">
                 <h3>2020</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>A 3D item Placement system that works on flat and curved surfaces.</p>
               </div>
               <img src='https://cdn.discordapp.com/attachments/524862684928409629/902808709892300800/Item_Placement_System.gif' alt='something'></img>
             </div>
+            <div className='Titles'>
+
+              <h2>Water Part System</h2>
+              <h2 className='titlePos'></h2>
+            </div>
+            <div className='Content'>
+              <div className="ContentText">
+                <h3>2020</h3>
+                <p>Terrain water as a part that can be resized. Also includes a drowning system and any audio playing outside the water gets distorted/lowered in volume.</p>
+              </div>
+              <img src='https://cdn.discordapp.com/attachments/524862684928409629/957622011620913232/2022-03-27_18-07-09_AdobeCreativeCloudExpress_1.gif' alt='something'></img>
+            </div>
+
             <div className='Titles'>
               <h2>Safezone System</h2>
               <h2 className='titlePos'></h2>
@@ -158,7 +160,11 @@ export default function Home() {
             <div className='Content'>
               <div className="ContentText">
                 <h3>2020</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Safezone system along with a basic TPS gun system. Safezone is disabled once weapon is equipped and gets re-enabled after the weapon is unequipped with a custom set delay.
+                  <br></br>
+                  <br></br>
+                  Also includes a PVP zone that made use of region3 and disables the Safezone shield for the player permanently in the region.
+                </p>
               </div>
               <img src='https://cdn.discordapp.com/attachments/524862684928409629/902807728290955315/Status_system_script.gif' alt='something'></img>
             </div>
