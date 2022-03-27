@@ -105,20 +105,6 @@ export default function Home() {
             <img src='https://cdn.discordapp.com/attachments/809875205693636620/951377969346134016/unknown.png' alt='something'></img>
           </div>
           <div className='Titles'>
-            <h2>Drift Simulator</h2>
-            <h2 className='titlePos'>Programmer | Game Producer</h2>
-          </div>
-          <div className='Content'>
-            <div className="ContentText">
-              <h3>Jan 2021 - Apr 2021</h3>
-              <p>A game with over 2.1M+ visits and a peak player count of 200. A fullscale game development project created by a team of 2. 
-                <br></br>
-                Worked as a producer and programmer while the project was active, creating new systems such as a drifting system for the players to interact with.
-              </p>
-            </div>
-            <img src='https://cdn.discordapp.com/attachments/950431041674436628/957634713500123156/collage.png' alt='something'></img>
-          </div>
-          <div className='Titles'>
             <h2>Samurai Kings</h2>
             <h2 className='titlePos'>Programmer</h2>
           </div>
@@ -132,6 +118,21 @@ export default function Home() {
             </div>
             <img src='https://samfloyd.tech/images/samuraisimulator.png' alt='something'></img>
           </div>
+          <div className='Titles'>
+            <h2>Drift Simulator</h2>
+            <h2 className='titlePos'>Programmer | Game Producer</h2>
+          </div>
+          <div className='Content'>
+            <div className="ContentText">
+              <h3>Jan 2021 - Apr 2021</h3>
+              <p>A game with over 2.1M+ visits and a peak player count of 200. A fullscale game development project created by a team of 2. 
+                <br></br>
+                Worked as a producer and programmer while the project was active, creating new systems such as a drifting system for the players to interact with.
+              </p>
+            </div>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/957634713500123156/collage.png' alt='something'></img>
+          </div>
+          
         </div>
         <div className='Showcase' id='showTab' style={{ display: "none" }}>
           <div className='ShowcaseWork'>
