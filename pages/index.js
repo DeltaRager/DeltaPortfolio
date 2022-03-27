@@ -121,7 +121,7 @@ export default function Home() {
           </div>
           <div className='Content'>
             <div className="ContentText">
-              <h3>Jun 2020 - Dec 2021</h3>
+              <h3>Mar 2021 - Apr 2021</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <img src='https://samfloyd.tech/images/samuraisimulator.png' alt='something'></img>
