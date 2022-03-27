@@ -102,7 +102,7 @@ export default function Home() {
               <h3>Dec 2021 - Present</h3>
               <p>Currently developing for the SCPF group under Raincoat Games. Working on a Survive the killers project.</p>
             </div>
-            <img src='https://cdn.discordapp.com/attachments/809875205693636620/951377969346134016/unknown.png' alt='something'></img>
+            <img src='https://samfloyd.tech/images/scpfinal.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Samurai Kings</h2>
