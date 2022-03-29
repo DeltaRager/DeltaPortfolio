@@ -105,6 +105,19 @@ export default function Home() {
             <img src='https://samfloyd.tech/images/scpfinal.png' alt='something'></img>
           </div>
           <div className='Titles'>
+            <h2>Huggy Playtime</h2>
+            <h2 className='titlePos'>Programmer | Game Producer</h2>
+          </div>
+          <div className='Content'>
+            <div className="ContentText">
+              <h3>Nov 2021 - Dec 2021</h3>
+              <p>This project was heavily inspired by the game Poppiy Playtime. It was my first full scale use of the Knit framework. The game was developed by a team of 5.
+                <br></br>
+                This game also uses the system whose showcase is the most popular video on my youtube channel, the "Grabpack System".</p>
+            </div>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958356854029832232/huggyplaytime.png' alt='something'></img>
+          </div>
+          <div className='Titles'>
             <h2>Samurai Kings</h2>
             <h2 className='titlePos'>Programmer</h2>
           </div>
