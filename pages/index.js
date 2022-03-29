@@ -113,7 +113,7 @@ export default function Home() {
               <h3>Nov 2021 - Dec 2021</h3>
               <p>This project was heavily inspired by the game Poppiy Playtime. It was my first full scale use of the Knit framework. The game was developed by a team of 5.
                 <br></br>
-                This game also uses the system whose showcase is the most popular video on my youtube channel, the "Grabpack System".</p>
+                This game also uses the system whose showcase is the most popular video on my youtube channel, the Grabpack System.</p>
             </div>
             <img src='https://cdn.discordapp.com/attachments/950431041674436628/958356854029832232/huggyplaytime.png' alt='something'></img>
           </div>
