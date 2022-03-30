@@ -84,7 +84,7 @@ export default function Home() {
               <h3>Dec 2021 - Present</h3>
               <p>Currently developing for the SCPF group under Raincoat Games. Working on a Survive the killers project.</p>
             </div>
-            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590734473248788/collage.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590903604371516/scpfinal.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Huggy Playtime</h2>
