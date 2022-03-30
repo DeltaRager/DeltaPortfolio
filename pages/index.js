@@ -56,24 +56,6 @@ export default function Home() {
     <header>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
-      <div id="myModal" className="modal">
-        <div className="modal-content">
-          <div className="ModalHeader" >
-            <span className="close" onClick={() => {
-              document.getElementById("myModal").style.display = 'none'
-            }}>&times;</span>
-            <h1 className="ShowcaseTitle">Item Placement System</h1>
-          </div>
-          <div className="ShowcaseContent">
-            <div className="ShowcaseVid">
-              <img src='https://cdn.discordapp.com/attachments/524862684928409629/902807728290955315/Status_system_script.gif' alt='something' width='400' height='225'></img>
-            </div>
-            <div className="ShowcaseText">
-              <p>Lorem ipsum dolor sit amet</p>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='Title'>
         <h1>DeltaRager</h1>
       </div>
@@ -102,7 +84,7 @@ export default function Home() {
               <h3>Dec 2021 - Present</h3>
               <p>Currently developing for the SCPF group under Raincoat Games. Working on a Survive the killers project.</p>
             </div>
-            <img src='https://samfloyd.tech/images/scpfinal.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590734473248788/collage.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Huggy Playtime</h2>
@@ -115,7 +97,7 @@ export default function Home() {
                 <br></br>
                 This game also uses the system whose showcase is the most popular video on my youtube channel, the Grabpack System.</p>
             </div>
-            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958356854029832232/huggyplaytime.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958589674681692221/huggyplaytime.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Samurai Kings</h2>
@@ -129,7 +111,7 @@ export default function Home() {
                 Worked as a programmer while the project was active and was responsible for the creation of various systems that are used in the game.
               </p>
             </div>
-            <img src='https://samfloyd.tech/images/samuraisimulator.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590904011227156/samuraisimulator.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Drift Simulator</h2>
@@ -143,7 +125,7 @@ export default function Home() {
                 Worked as a producer and programmer while the project was active, creating new systems such as a drifting system for the players to interact with.
               </p>
             </div>
-            <img src='https://cdn.discordapp.com/attachments/950431041674436628/957634713500123156/collage.png' alt='something'></img>
+            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590734473248788/collage.png' alt='something'></img>
           </div>
           
         </div>
