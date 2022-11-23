@@ -42,6 +42,8 @@ export default function Home() {
       activebutton = document.getElementById("exp")
       setup()
       buttonevent()
+      activebutton = document.getElementById(id)
+      changeButton(id)
     }
     if (!document.getElementById(id).classList.contains("selectedButton")) {
       activebutton.classList.remove("selectedButton")
@@ -77,14 +79,14 @@ export default function Home() {
 
           <div className='Titles'>
             <h2>Raincoat Games</h2>
-            <h2 className='titlePos'>Programmer</h2>
+            <h2 className='titlePos'>Accelerator | Programmer</h2>
           </div>
           <div className='Content'>
             <div className="ContentText">
               <h3>Dec 2021 - Present</h3>
-              <p>Currently developing for the SCPF group under Raincoat Games. Working on a Survive the killers project.</p>
+              <p> Part of the Fall '22 Accelerator class; Developed a game with a team of 4 under this studio. Also worked on a SCP inspired Survive the killers project.</p>
             </div>
-            <img src='https://cdn.discordapp.com/attachments/950431041674436628/958590903604371516/scpfinal.png' alt='something'></img>
+            <img src='https://media.discordapp.net/attachments/950431041674436628/1044864133922828349/scpfinal.png' alt='something'></img>
           </div>
           <div className='Titles'>
             <h2>Huggy Playtime</h2>
