@@ -42,10 +42,9 @@ export default function Home() {
       activebutton = document.getElementById("exp")
       setup()
       buttonevent()
-      activebutton = document.getElementById(id)
-      changeButton(id)
-    }
-    if (!document.getElementById(id).classList.contains("selectedButton")) {
+      document.getElementById(`${activebutton.id}Tab`).style.display = "block"
+      activebutton.classList.add("selectedButton")
+    }else if (!document.getElementById(id).classList.contains("selectedButton")) {
       activebutton.classList.remove("selectedButton")
       document.getElementById(`${activebutton.id}Tab`).style.display = "none"
       activebutton = document.getElementById(id)
