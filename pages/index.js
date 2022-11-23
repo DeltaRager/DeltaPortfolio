@@ -44,6 +44,7 @@ export default function Home() {
       buttonevent()
       document.getElementById(`${activebutton.id}Tab`).style.display = "block"
       activebutton.classList.add("selectedButton")
+      changeButton(id)
     }else if (!document.getElementById(id).classList.contains("selectedButton")) {
       activebutton.classList.remove("selectedButton")
       document.getElementById(`${activebutton.id}Tab`).style.display = "none"
